@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfdf4884-a207-4590-9aa6-376160753043" name="默认的" comment="" />
+    <list default="true" id="bfdf4884-a207-4590-9aa6-376160753043" name="默认的" comment="拉勾网">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/demo_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/font/demo_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/font/iconfont.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/font/iconfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/iconfont.js" beforeDir="false" afterPath="$PROJECT_DIR$/font/iconfont.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/iconfont.json" beforeDir="false" afterPath="$PROJECT_DIR$/font/iconfont.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/font/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/font/iconfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/font/iconfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/iconfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/font/iconfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +28,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1loLYYUZTdJUkMcfRYQkQj3q22C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,7 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/font" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -37,10 +54,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\webstorm-workspace\MyProject\untitled\font" />
       <recent name="C:\workspace\webstorm-workspace\MyProject\untitled\img2" />
       <recent name="C:\workspace\webstorm-workspace\MyProject\untitled\img1" />
-      <recent name="C:\workspace\webstorm-workspace\MyProject\untitled\font" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="demo_index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/font/demo_index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript 调试.demo_index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -52,11 +79,32 @@
       <updated>1608258545423</updated>
       <workItem from="1608258546838" duration="12032000" />
       <workItem from="1608516871744" duration="6421000" />
-      <workItem from="1608603714938" duration="7296000" />
+      <workItem from="1608603714938" duration="8683000" />
+      <workItem from="1608689970255" duration="5615000" />
+      <workItem from="1608775554451" duration="7134000" />
+      <workItem from="1608797740047" duration="577000" />
+      <workItem from="1608864627713" duration="3629000" />
+      <workItem from="1608876339244" duration="1818000" />
+      <workItem from="1608879552363" duration="24000" />
+      <workItem from="1609121137964" duration="7206000" />
+      <workItem from="1609227319882" duration="5947000" />
+      <workItem from="1609290754583" duration="2516000" />
     </task>
+    <task id="LOCAL-00001" summary="拉勾网">
+      <created>1608619900902</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608619900902</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="拉勾网" />
+    <option name="LAST_COMMIT_MESSAGE" value="拉勾网" />
   </component>
 </project>

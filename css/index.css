@@ -261,13 +261,473 @@
 /*---------------navigation左结束---------------*/
 /*---------------navigation右开始---------------*/
 .navigation_bar .nav_right{
+    position: relative;
     margin-top: 45px;
+
 
 }
 .navigation_bar .nav_right img{
     width: 842px;
     height: 352px;
 }
+.navigation_bar .nav_right span{
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color:#757478;
+    font-size: 48px;
+}
+
+.navigation_bar .nav_right span:nth-of-type(1){
+    left:5px;
+}
+.navigation_bar .nav_right span:nth-of-type(2){
+    right: 5px;
+}
+
 /*---------------navigation右结束---------------*/
 /*-----------------------navigation结束-----------------------*/
+/*-----------------------job开始-----------------------------*/
+.job_tab{
+    height:50px ;
+    width: 1200px;
+    margin-top:50px ;
+}
+.job_tab ul{
+    width: 1200px;
+    height: 50px;
+    border-bottom:1px solid #e8e8e8;
+}
+.job_tab li{
+    float: left;
+    height: 50px;
+    width: auto;
+    line-height: 50px;
+    margin-right: 57px;
+    font-size: 14px;
 
+}
+.job_tab li:nth-of-type(1){
+    color: black;
+    border-bottom:2px solid black;
+}
+.job_tab li:nth-of-type(2){
+    color:#999999
+}
+.hot_PosHotPosition .hot_tips{
+    width: 1200px;
+    height: 48px;
+}
+.hot_PosHotPosition .hot_tips div{
+    display: inline-block;
+    height: 48px;
+    width: 245px;
+    color: #999999;
+    font-size: 12px;
+    line-height: 48px;
+}
+.hot_PosHotPosition .hot_tips div::before{
+    content:"\e62f";
+    font-family: "iconfont";
+    font-size: 14px;
+    color: #e6e6e6;
+    margin-right: 5px;
+}
+.hot_PosHotPosition .hot_tips a{
+    display: inline-block;
+    color: #00b38a;
+}
+.hot_PosHotPosition .hot_positionlist li{
+    float: left;
+    width: 390px;
+    height: 200px;
+    border: 1px solid #eaeeed;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.hot_PosHotPosition .hot_positionlist li:nth-of-type(3n){
+    margin-right: 0;
+}
+/*------------job小li开始------------*/
+.hot_positionlist{
+    height: 650px;
+}
+.hot_positionlist li{
+    padding:20px 17px 17px 17px;
+}
+.hot_positionlist .hotposi_info{
+    height: 23px;
+    width: auto;
+}
+.hot_positionlist .hotposi_info .hotposi_info_name{
+    float: left;
+    height: 23px;
+    width: auto;
+    line-height: 23px;
+
+    color: black;
+    font-size: 16px;
+}
+.hot_positionlist .hotposi_info .hotposi_info_time{
+    float: left;
+    margin-left: 10px;
+    color:#999999;
+    font-size: 14px;
+}
+.hot_positionlist .hotposi_info img{
+    float:left;
+    margin-left: 7px;
+    margin-top: 3px;
+}
+.hot_positionlist .hotposi_info .hotposi_info_salary{
+    float: right;
+    color:red;
+    font-size: 16px;
+}
+.hot_positionlist p{
+    margin-top: 10px;
+    color:#777777;
+    font-size: 16px;
+}
+.hot_positionlist .hotposi_btn button{
+    height: 28px;
+    width: auto;
+    line-height: 11px;
+    padding: 7px 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border:1px solid #f0f0f0;
+    border-radius: 3px;
+    background-color: white;
+    color:#999999;
+}
+.hot_positionlist .hotposi_dottedLine{
+    width: 354px;
+    height: 0px;
+    margin-top: 20px;
+    border-top:1px dashed #e0e0e0;
+
+}
+.hot_positionlist .hotposi_company{
+
+}
+.hot_positionlist .hotposi_company img{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-top: 18px;
+
+}
+.hot_positionlist .hotposi_company div{
+    float: left;
+    margin-left:14px ;
+    margin-top: 12px;
+}
+.hot_positionlist .hotposi_company div p:nth-of-type(1){
+    color: black;
+    font-size: 12px;
+}
+.hot_positionlist .hotposi_company div p:nth-of-type(2){
+    color: #999999;
+    margin-top: 2px;
+    font-size:12px;
+}
+/*------------job小li结束------------*/
+.hot_PosHotPosition>button{
+    width: 389px;
+    height: 44px;
+    margin-left: 405px;
+    color: #00b38a;
+    border: 1px solid #00b38a;
+    background-color: white;
+    font-size:16px;
+}
+/*-----------------------job结束-----------------------*/
+/*-----------------------公司开始-----------------------*/
+.hot_Company .hot_tips{
+    height: 48px;
+}
+.hot_Company .hot_tips div{
+    display: inline-block;
+    height: 48px;
+    width: 245px;
+    color: #999999;
+    font-size: 12px;
+    line-height: 48px;
+}
+.hot_Company .hot_tips div::before{
+    content:"\e62f";
+    font-family: "iconfont";
+    font-size: 14px;
+    color: #e6e6e6;
+    margin-right: 5px;
+}
+.hot_Company .hot_tips a{
+    display: inline-block;
+    color: #00b38a;
+}
+
+.hot_Company .hot_companylist ul{
+    /*width: 1200px;*/
+}
+.hotcomp_ul {
+    width: 270px;
+}
+
+.hot_Company .hot_companylist>ul>li{
+    float: left;
+    width: 288px;
+    height: 272px;
+    border: 1px solid #eaeeed;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+
+}
+
+.hot_Company .hot_companylist>ul>li:nth-of-type(4n){
+    margin-right: 0;
+}
+/*-------------公司小li开始--------*/
+.hot_Company .hot_companylist ul li img{
+    width: 80px;
+    height: 80px;
+    margin-top: 5px;
+    margin-left: 89px;
+}
+.hot_Company .hot_companylist>ul>li>p{
+    text-align: center;
+}
+.hot_Company .hot_companylist>ul>li>p:nth-of-type(1){
+    margin-top: 14px;
+    color: black;
+}
+.hot_Company .hot_companylist>ul>li>p:nth-of-type(2){
+    margin-top: 9px;
+    font-size: 12px;
+    color: #999999;
+}
+.hot_Company .hot_companylist>ul>li>p:nth-of-type(3){
+    margin-top: 9px;
+    font-size: 12px;
+    color: black;
+    /*1.先强制一行内显示文本，默认自动换行*/
+    white-space:nowrap;
+    /*2.超出的部分隐藏*/
+    overflow:hidden;
+    /*3.文字省略号替代超出部分*/
+    text-overflow:ellipsis;
+}
+.hot_Company .hot_companylist .hotcomp_dottedLine{
+    width: 258px;
+    height: 0px;
+    margin-top: 20px;
+    border-top:1px dashed #e0e0e0;
+}
+
+.hot_Company .hot_companylist ul li ul li{
+    float: left;
+    width:88px ;
+    height:33px ;
+    margin-right: 0;
+    border-right: 1px solid #ededed;
+    padding:0 15px;
+    margin-top: 15px;
+
+}
+.hot_Company .hot_companylist ul li ul li p{
+        font-size: 12px;
+    text-align: center;
+}
+.hot_Company .hot_companylist ul li ul li p:nth-of-type(1){
+    color:#00b38a;
+}
+.hot_Company .hot_companylist ul li ul li:nth-of-type(3){
+    border:0
+}
+/*-------------公司小li结束--------*/
+.hot_Company>button{
+    width: 389px;
+    height: 44px;
+    margin-left: 405px;
+    color: #00b38a;
+    border: 1px solid #00b38a;
+    background-color: white;
+    font-size:16px;
+}
+/*-----------------------公司结束-----------------------*/
+/*-----------------------友情链接开始-----------------------*/
+.blogroll{
+    height: 23px;
+    margin-top: 30px;
+}
+.blogroll li{
+    float:left;
+    margin-right: 20px;
+
+}
+.blogroll li a{
+    color:black;
+}
+.blogroll span{
+    font-size: 14px;
+}
+.blogroll span::after{
+    content:"\e665";
+    font-family: iconfont;
+}
+/*-----------------------友情链接结束-----------------------*/
+/*-----------------------footer开始-----------------------*/
+
+footer{
+    height: 356px;
+    margin-top: 84px;
+    border-top: 1px solid #ededed;
+}
+
+footer .footer_top{
+    height: 283px;
+}
+footer .footer_botton{
+    height: 99px;
+    background-color: #fafafa;
+}
+
+/*------------------footerTop开始---------------*/
+
+.footer_top_wrap_left{
+    width: 314px;
+    height: 170px;
+    border-right: 1px solid #e8e8e8;
+    margin-top: 50px;
+}
+.footer_top_wrap_left>.button_footerBottom,.button_footerTop{
+    width: 184px;
+    height: 43px;
+    border:1px solid #00b38a;
+    color:#00b38a;
+    background-color: white;
+    margin-bottom: 18px;
+}
+.footer_top_wrap_left > div{
+    position: relative;
+    width: 190px;
+    height: 20px;
+    overflow: hidden;
+}
+.Lagou_microblog,.Lagou_WeChat{
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 8px;
+}
+.Lagou_microblog div,.Lagou_WeChat div{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background:url("../img1/sprite2.png") no-repeat;
+
+
+}
+
+.Lagou_microblog span,.Lagou_WeChat span{
+    position: absolute;
+    display: inline-block;
+    font-size: 14px;
+
+}
+.Lagou_microblog div{
+    background-position: -113px -185px;
+}
+.Lagou_WeChat div{
+    background-position: -213px -19px;
+}
+
+.footer_top_wrap_right{
+    width: 873px;
+
+}
+.footer_top_wrap_right>ul{
+    position: relative;
+    width: 870px;
+    height: 170px;
+    margin-top: 50px;
+}
+
+.footer_top_wrap_right>ul>li{
+    position: absolute;
+    float:left;
+
+}
+.footer_top_wrap_right>ul>li:nth-of-type(1){
+    left: 102px;
+}
+.footer_top_wrap_right>ul>li:nth-of-type(2){
+    left: 357px;
+}
+
+.footer_top_wrap_right>ul>li:nth-of-type(3){
+    left: 603px;
+}
+
+.footer_top_wrap_right>ul>li ul{
+    margin-top: 35px;
+}
+.footer_top_wrap_right>ul>li ul li{
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+/*------------------footerTop结束---------------*/
+/*------------------footerBottom开始---------------*/
+
+.footer_bottom_wrap{
+    margin-top: 50px;
+}
+.footer_bottom_wrap>span,.footer_bottom_wrap>div{
+    float:left;
+    margin-left: 15px;
+}
+.footer_bottom_wrap>span{
+    margin-top: 50px;
+}
+.footer_bottom_wrap>span:nth-of-type(2) div{
+    float:left;
+    width: 20px;
+    height: 20px;
+    background:url("../img1/sprite2.png") no-repeat -150px -180px;
+}
+.footer_bottom_wrap>div{
+    margin-top: 30px;
+    width: 188px;
+    height: 60px;
+    border:1px solid #d5dadf;
+    padding:6px 17px;
+}
+.footer_bottom_wrap>div>div:nth-of-type(1){
+    float:left;
+    margin-top: 15px;
+    margin-left: -5px;
+    width: 30px;
+    height: 30px;
+    background:url("../img1/sprite2.png") no-repeat -130px -20px;
+}
+.footer_bottom_wrap>div>div:nth-of-type(2){
+    float:left;
+    font-size: 12px;
+    margin-left: 6px;
+}
+
+.footer_bottom_wrap img{
+    float:right;
+    margin-top: 44px;
+}
+/*------------------footerBottom结束---------------*/
+
+/*-----------------------footer结束-----------------------*/
